@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const PostCard = () => {
   return (
     <div className="flex flex-wrap justify-center gap-x-12 gap-y-28 my-20">
-      <Link to={"/viewstartup"}>
-        <div className="flex flex-col md:w-96 w-11/12 justify-center items-center border-2 border-white rounded-lg">
+      <div className="flex flex-col md:w-96 w-11/12 justify-center items-center border-2 border-white rounded-lg">
+        <Link to={"/viewstartup"}>
           <img
             src="https://source.unsplash.com/random/383x330/?blockchain,ether"
             className="rounded-t-lg"
@@ -33,8 +33,8 @@ const PostCard = () => {
               : 15 ETH
             </p>
           </div>
-        </div>
-      </Link>
+        </Link>
+      </div>
       <div className="flex flex-col md:w-96 w-11/12 justify-center items-center border-2 border-white rounded-lg">
         <img
           src="https://source.unsplash.com/random/383x330/?blockchain,bitcoin"
